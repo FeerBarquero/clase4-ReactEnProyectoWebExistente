@@ -60,13 +60,7 @@ https://templatemo.com/tm-526-vanilla
                         return (
                             <React.Fragment>
                             <h1>Hello React!</h1>
-                            <button
-                                 type="button"
-                                 class={'button' + button + 'btn-lg'}
-                                 onClick={() => this.setState({ pressed: !this.state.pressed})}
-                            >
-                                {text}
-                              </button>
+                                 <button type="button" class={'btn '+ button + ' btn-lg'} onClick={() => this.setState({ pressed: !this.state.pressed })}>{text}</button>
                             </React.Fragment>
                         );
                     }
